@@ -1,4 +1,4 @@
-const BodyCard = () => {
+const BodyCard_NormalToken = () => {
   return (
     <div className="flex items-center justify-center sm:justify-start flex-wrap gap-y-5 sm:gap-y-4 w-full mt-4 sm:mt-8">
       <div className="flex justify-center items-start flex-col">
@@ -303,4 +303,4 @@ const BodyCard = () => {
   );
 };
 
-export default BodyCard;
+export default BodyCard_NormalToken;
