@@ -1,8 +1,11 @@
 import Wallet from "./Wallet";
+import { useState } from "react";
 
 const SolIncinerator = () => {
+  const [isHover, setIsHover] = useState(false);
+
   return (
-    <div className="mx-5 sm:mt-5 mb-15">
+    <div className="px-5 sm:pt-5 mb-15">
       <div>
         <div className="flex flex-col flex-wrap lg:flex-row lg:items-center justify-between">
           <div className="basis-full lg:basis-2/5 flex justify-start items-start h-full flex-grow lg:justify-start">
@@ -15,7 +18,13 @@ const SolIncinerator = () => {
             </a>
           </div>
 
-          <div className="lg:basis-1/5 justify-center items-center hidden lg:flex">
+          <div
+            className={`lg:basis-1/5 justify-center items-center hidden lg:flex ${
+              isHover ? "scale-110" : ""
+            } rounded-lg duration-150`}
+            onMouseEnter={() => setIsHover(true)}
+            onMouseLeave={() => setIsHover(false)}
+          >
             <a href="https://solslugs.com/" target="_blank" rel="noreferrer">
               <img
                 src="/images/Sol_slug.png"

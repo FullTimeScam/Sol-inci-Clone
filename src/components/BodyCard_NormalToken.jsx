@@ -1,6 +1,14 @@
+import { useState } from "react";
+
 const BodyCard_NormalToken = () => {
+  const [isHover, setIsHover] = useState(false);
+
   return (
-    <div className="flex items-center justify-center sm:justify-start flex-wrap gap-y-5 sm:gap-y-4 w-full mt-4 sm:mt-8">
+    <div
+      className="flex items-center justify-center sm:justify-start flex-wrap gap-y-5 sm:gap-y-4 w-full mt-4 sm:mt-8"
+      onMouseEnter={() => setIsHover(true)}
+      onMouseLeave={() => setIsHover(false)}
+    >
       <div className="flex justify-center items-start flex-col">
         <div
           role="button"
