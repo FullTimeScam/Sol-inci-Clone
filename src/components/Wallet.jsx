@@ -14,7 +14,7 @@ const Wallet = () => {
                     className="h-6 w-6"
                   />
                 </i>
-                <span className="flex text-white font-bold vt323-regular text-[34px] px-3 -ml-3">
+                <span className="flex text-white font-bold press-start-2p-regular text-[18px] px-0 -ml-3">
                   disconnect wallet
                 </span>
               </button>

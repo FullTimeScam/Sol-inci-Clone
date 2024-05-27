@@ -27,7 +27,6 @@ const SolIncinerator = () => {
             </a>
           </div>
           <div className="basis-full gap-y-1 justify-around flex sm:flex-nowrap items-center md:mb-2.5 mt-1 sm:mt-2.5 md:mt-5 lg:mt-0 lg:basis-2/5 lg:justify-end">
-            디코트윗
             <a
               className="mx-2 sm:mx-5"
               href="https://discord.gg/EDbUAbMA"

@@ -7,7 +7,7 @@ const Menu = () => {
             <div className="flex justify-center w-full cursor-pointer">
               <div className="flex flex-col grow 2xl:w-4/5 2xl:grow-0">
                 <div className="rounded-t h-10 flex flex-col justify-end items-center grow text-white hover:text-primary bg-transparent">
-                  <span className="font-bold vt323-regular text-[30px] xl:text-2xl text-center cursor-pointer mb-1 whitespace-nowrap mx-4 uppercase">
+                  <span className="font-bold press-start-2p-regular text-[30px] xl:text-2xl text-center cursor-pointer mb-1 whitespace-nowrap mx-4 uppercase">
                     NFTs
                   </span>
                 </div>
@@ -18,7 +18,7 @@ const Menu = () => {
             <div className="flex justify-center w-full cursor-pointer">
               <div className="flex flex-col grow 2xl:w-4/5 2xl:grow-0">
                 <div className="rounded-t h-10 flex flex-col justify-end items-center grow text-white hover:text-primary bg-transparent">
-                  <span className="font-bold vt323-regular text-[30px] xl:text-2xl text-center cursor-pointer mb-1 whitespace-nowrap mx-4 uppercase">
+                  <span className="font-bold press-start-2p-regular text-[30px] xl:text-2xl text-center cursor-pointer mb-1 whitespace-nowrap mx-4 uppercase">
                     CNFTs
                   </span>
                 </div>
@@ -29,7 +29,7 @@ const Menu = () => {
             <div className="flex justify-center w-full cursor-pointer">
               <div className="flex flex-col grow 2xl:w-4/5 2xl:grow-0">
                 <div className="rounded-t h-10 flex flex-col justify-end items-center grow text-white hover:text-primary bg-transparent">
-                  <span className="font-bold vt323-regular text-[30px] xl:text-2xl text-center cursor-pointer mb-1 whitespace-nowrap mx-4 uppercase">
+                  <span className="font-bold press-start-2p-regular text-[30px] xl:text-2xl text-center cursor-pointer mb-1 whitespace-nowrap mx-4 uppercase">
                     Tokens
                   </span>
                 </div>
@@ -40,7 +40,7 @@ const Menu = () => {
             <div className="flex justify-center w-full cursor-pointer">
               <div className="flex flex-col grow 2xl:w-4/5 2xl:grow-0">
                 <div className="rounded-t h-10 flex flex-col justify-end items-center grow text-white hover:text-primary bg-transparent">
-                  <span className="font-bold vt323-regular text-[30px] xl:text-2xl text-center cursor-pointer mb-1 whitespace-nowrap mx-4 uppercase">
+                  <span className="font-bold press-start-2p-regular text-[30px] xl:text-2xl text-center cursor-pointer mb-1 whitespace-nowrap mx-4 uppercase">
                     Domains
                   </span>
                 </div>
@@ -51,7 +51,7 @@ const Menu = () => {
             <div className="flex justify-center w-full cursor-pointer">
               <div className="flex flex-col grow 2xl:w-4/5 2xl:grow-0">
                 <div className="rounded-t h-10 flex flex-col justify-end items-center grow text-white hover:text-primary bg-transparent">
-                  <span className="font-bold vt323-regular text-[30px] xl:text-2xl text-center cursor-pointer mb-1 whitespace-nowrap mx-4 uppercase">
+                  <span className="font-bold press-start-2p-regular text-[30px] xl:text-2xl text-center cursor-pointer mb-1 whitespace-nowrap mx-4 uppercase">
                     CleanUp
                   </span>
                 </div>
