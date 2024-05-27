@@ -6,6 +6,7 @@ const BodyCard_NormalTokenComp = ({
   ticker,
   tokenAddress,
   tokenAmount,
+  dollorCost,
 }) => {
   const [imgUrl, setImgUrl] = useState(`/images/${imgNameWithExtention}`);
   const [isHover, setIsHover] = useState(false);
@@ -70,7 +71,7 @@ const BodyCard_NormalTokenComp = ({
             >
               {/* <span className="text-[#94E448]">&lt;$ </span>0.01 */}
               <span className="text-[#94E448]">$ </span>
-              {tokenAmount}
+              {dollorCost}
             </span>
           </div>
         </a>

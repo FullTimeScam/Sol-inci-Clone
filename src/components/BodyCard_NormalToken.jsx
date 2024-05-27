@@ -11,18 +11,12 @@ const BodyCard_NormalToken = () => {
       onMouseLeave={() => setIsHover(false)}
     >
       <BodyCard_NormalTokenComp
-        imgNameWithExtention="MEW.webp"
-        title="Cat In A Dogs World"
-        ticker="MEW"
-        tokenAddress="MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5"
-        tokenAmount="3.7M"
-      />
-      <BodyCard_NormalTokenComp
-        imgNameWithExtention="ZEUS.png"
+        imgNameWithExtention="aZEUS.png"
         title="ZEUS Airdrop"
         ticker="ZEUS"
         tokenAddress="2SwUSgSMCUSGowWjzeF8A1kvS5BKNia447tqrTh9KmCU"
         tokenAmount="15,750"
+        dollorCost="<0"
       />
       <BodyCard_NormalTokenComp
         imgNameWithExtention="DODG.png"
@@ -30,13 +24,31 @@ const BodyCard_NormalToken = () => {
         ticker="DODG"
         tokenAddress="FaYTnfmPK8uP4dvtECypG3ugCC3wQrG27pwkB1YkhXsG"
         tokenAmount="456"
+        dollorCost="<0"
+      />
+      <BodyCard_NormalTokenComp
+        imgNameWithExtention="FLIPGG.png"
+        title="Flip.gg | #1 Lootbox Game"
+        ticker="FLIPGG"
+        tokenAddress="VVWAy5U2KFd1p8AdchjUxqaJbZPBeP5vUQRZtAy8hyc"
+        tokenAmount="10,878"
+        dollorCost="<0.04"
+      />
+      <BodyCard_NormalTokenComp
+        imgNameWithExtention="IQ50.png"
+        title="IQ50"
+        ticker="IQ50"
+        tokenAddress="21rweMLGYeMNonHW7H3xa5py17X6ZFRcHirCp9inRBQA"
+        tokenAmount="800,000"
+        dollorCost="22.34"
       />
       <BodyCard_NormalTokenComp
         imgNameWithExtention="PLANK.jpg"
         title="Planktos"
         ticker="PLANK"
         tokenAddress="DVuaDuQdPZ6H49inC2Xoyx7BpLAAJTPPChSfHuGpy8X4"
-        tokenAmount="5"
+        tokenAmount="50000"
+        dollorCost="107.0"
       />
       <BodyCard_NormalTokenComp
         imgNameWithExtention="RIP_DOGE.png"
@@ -44,6 +56,7 @@ const BodyCard_NormalToken = () => {
         ticker="RIPDOGE"
         tokenAddress="R1PvYksqSofUnZCCvQyzHqFSGfqSugPQiXksGW8Ck6y"
         tokenAmount="67.3M"
+        dollorCost="<0"
       />
     </div>
   );
